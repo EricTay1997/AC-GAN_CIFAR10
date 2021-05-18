@@ -1,6 +1,6 @@
 # AC_GAN_CIFAR10
 
-Contains code that implements multiple AC-GAN models, which are train on the CIFAR-10 dataset.
+Contains code that implements multiple AC-GAN models, which are train on the CIFAR-10 dataset. The final report can be found in `report.pdf`.
 
 ## Inception Network
 
