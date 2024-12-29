@@ -38,7 +38,7 @@ class ResNet_Block(nn.Module):
 class ResNetCIFAR(nn.Module):
     def __init__(self, num_layers=20, num_stem_conv=32, config=(16, 32, 64)):
         super(ResNetCIFAR, self).__init__()
-        self.num_layers = 20
+        self.num_layers = num_layers
         self.head_conv = nn.Sequential(
             PrunedConv(in_channels=3, out_channels=num_stem_conv,
                       stride=1, padding=1, kernel_size=3, bias=False),
